@@ -52,11 +52,6 @@ st.markdown("""
         box-shadow: 0 0 60px rgba(255, 0, 193, 0.6);
     }
 
-    /* Sidebar Styling */
-    [data-testid="stSidebar"] {
-        background-color: rgba(10, 10, 20, 0.9) !important;
-        border-right: 1px solid rgba(0, 210, 255, 0.2);
-    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -75,9 +70,6 @@ def process_img(img_input):
         # Magenta model requires 4D tensor: [batch, height, width, channel]
         return tf.image.resize(img[tf.newaxis, :], (512, 512))
     return None
-
-# --- 3. Sidebar Mission Control ---
-st.sidebar.title("🪐 Mission Control")
 
 # Feature: Style Strength Slider to fix unrelated outputs
 st.sidebar.markdown("### Fusion Settings")
