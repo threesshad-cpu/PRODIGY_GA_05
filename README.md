@@ -103,7 +103,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🚀 Live Deployment - 🔗 **Live Web App:** [https://pix2pix-aigen.streamlit.app]([https://neural-nexus.streamlit.app]
+## 🚀 Live Deployment - 🔗 **Live Web App:** [https://neural-style-imagen.streamlit.app/]([https://neural-style-imagen.streamlit.app/])
 
 ---
 
